@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#circle{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(17, 136, 13);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.inner {
+    background-color: white;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 38px;
+    top: 40px;
+}
+
+#change-color{
+    margin-top: 30px;
+    padding: 3px;
+
+}
+
+#change-shape{
+    margin-top: 20px;
+    padding: 3px;
+}
+
+button {
+    font-size: 18px;
+}
+
+.triangle-bottom-left {
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
